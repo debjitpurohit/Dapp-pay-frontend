@@ -28,7 +28,7 @@ function App() {
       //METAMASK
       //1. in order to do transsactions on goerli test net
       //2. metamask cvonsiosts of infura api which actually connects to the blockchain
-
+try{
 
         const {ethereum}=window;
 
@@ -62,7 +62,9 @@ function App() {
         console.log(contract);
         setState({provider,signer,contract});
 
-
+   }catch(err){
+        alert("Please install metamask or connect to metamask");
+      }
 
 
 
