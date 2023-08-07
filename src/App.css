@@ -1,0 +1,21 @@
+body {
+  background-color: aliceblue;
+  color:black ;
+
+}
+.connectButton {
+  color: white;
+  font-weight: bold;
+  font-size: calc(10px + 2vmin);
+  cursor: pointer;
+  background-color: dodgerblue ;
+  padding: 6px;
+  border-radius: 20px;
+}
+.cnct{
+  color: dodgerblue;
+  font-weight: semi-bold;
+  font-size: 20px;
+}
+
+
