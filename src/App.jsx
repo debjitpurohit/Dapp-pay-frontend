@@ -6,7 +6,7 @@ import './App.css'
 import Buy from './components/Buy'
 import Memos from './components/Memos'
 import chai from "./chai.png";
-import img from "./blk.jpg"
+import img from "./blk3.jpg"
 
 function App() {
   // const [btn,setBtn]=useState('Connect to Wallet'); 
