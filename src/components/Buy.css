@@ -69,3 +69,14 @@
 .center .inputbox:hover [type="submit"] {
   background: linear-gradient(45deg, greenyellow, dodgerblue);
 }
+@media screen and (max-width: 600px) {
+  .center {
+    width: 50%;
+  }
+  .center .inputbox #name {
+    width: 100%;
+  }
+
+
+  
+}
