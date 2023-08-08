@@ -7,3 +7,10 @@
     /* margin: auto; */
 
 }
+@media screen and (max-width: 600px) {
+    .container-fluid{
+        width: 50%;
+        margin-left: 0px;
+    }
+
+}
